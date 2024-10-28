@@ -6,7 +6,7 @@ from PIL import Image
 import os
 
 # Load the EfficientNet model
-MODEL_PATH = 'aram_model/aram_model6.pt'  # Update with your actual .pt file path
+MODEL_PATH = 'model.pt'  # Update with your actual .pt file path
 model = torch.load(MODEL_PATH, map_location=torch.device('cpu'))
 model.eval()
 
